@@ -1,0 +1,75 @@
+{
+  "files.trimTrailingWhitespace": false,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "explorer.confirmDelete": false,
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": true,
+  "editor.renderWhitespace": "none",
+  "workbench.sideBar.location": "right",
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.showExecutionMessage": false,
+  "code-runner.saveFileBeforeRun": true,
+  "security.workspace.trust.enabled": false,
+  "vim.leader": "<space>",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "standard.autoFixOnSave": true,
+  "html.format.wrapLineLength": 80,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "files.autoSave": "off",
+  "editor.detectIndentation": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "python.defaultInterpreterPath": "/home/james/.pyenv/versions/3.8.3/bin/python",
+  "python.linting.pylintEnabled": false,
+  "python.linting.enabled": true,
+  "python.linting.pycodestyleEnabled": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.minimap.enabled": false,
+  "explorer.openEditors.visible": 0,
+  "workbench.settings.editor": "json",
+
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "explorer.confirmDragAndDrop": false,
+  "mssql.connections": [
+    {
+      "server": "{{put-server-name-here}}",
+      "database": "{{put-database-name-here}}",
+      "user": "{{put-username-here}}",
+      "password": ""
+    }
+  ],
+
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.inlineSuggest.enabled": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "bracketPairColorizer.depreciation-notice": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": -1,
+  "prettier.printWidth": 120
+}
